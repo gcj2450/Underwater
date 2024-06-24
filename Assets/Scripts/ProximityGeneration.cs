@@ -61,39 +61,39 @@ public class ProximityGeneration : MonoBehaviour
             switch(i){
                 case 0:
                     tiles[i].transform.position = tilesPos;
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
                 case 1:
                     tiles[i].transform.position = tilesPos + (new Vector3(distance, 0 , 0));
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
                 case 2:
                     tiles[i].transform.position = tilesPos + (new Vector3(distance, 0 , distance));
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
                 case 3:
                     tiles[i].transform.position = tilesPos + (new Vector3(0, 0 , distance));
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
                 case 4:
                     tiles[i].transform.position = tilesPos + (new Vector3(-distance, 0 , distance));
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
                 case 5:
                     tiles[i].transform.position = tilesPos + (new Vector3(-distance, 0 , 0));
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
                 case 6:
                     tiles[i].transform.position = tilesPos + (new Vector3(-distance, 0 , -distance));
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
                 case 7:
                     tiles[i].transform.position = tilesPos + (new Vector3(0, 0 , -distance));
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
                 case 8:
                     tiles[i].transform.position = tilesPos + (new Vector3(distance, 0 , -distance));
-                    SpawnFish(tiles[i], playerPosition);
+                    //SpawnFish(tiles[i], playerPosition);
                 break;
 
                 default:
