@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Underwater.unity
+    path: Assets/Scenes/SeaEv.unity
     guid: 0e1f69d3059a99247a755556cbb5712b
   m_configObjects: {}
